@@ -1,0 +1,62 @@
+WARNING: Use "yarn jar" to launch YARN applications.
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=512m; support was removed in 8.0
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/hdp/2.4.0.0-169/hadoop/lib/slf4j-log4j12-1.7.10.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/bmr/tez/lib/slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/bmr/hbase/lib/slf4j-log4j12-1.7.10.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+18/12/25 16:14:19 INFO impl.TimelineClientImpl: Timeline service address: http://ng3940a95-master-instance-7jvxbb49.novalocal:8188/ws/v1/timeline/
+18/12/25 16:14:20 INFO client.RMProxy: Connecting to ResourceManager at ng3940a95-master-instance-7jvxbb49.novalocal/192.168.32.61:8050
+18/12/25 16:14:21 INFO input.FileInputFormat: Total input paths to process : 8
+18/12/25 16:14:21 INFO mapreduce.JobSubmitter: number of splits:2448
+18/12/25 16:14:21 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1545622471424_0007
+18/12/25 16:14:21 INFO impl.YarnClientImpl: Submitted application application_1545622471424_0007
+18/12/25 16:14:22 INFO mapreduce.Job: The url to track the job: http://ng3940a95-master-instance-7jvxbb49.novalocal:8088/proxy/application_1545622471424_0007/
+18/12/25 16:14:22 INFO mapreduce.Job: Running job: job_1545622471424_0007
+18/12/25 16:14:31 INFO mapreduce.Job: Job job_1545622471424_0007 running in uber mode : false
+18/12/25 16:14:31 INFO mapreduce.Job:  map 0% reduce 0%
+18/12/25 16:15:43 INFO mapreduce.Job:  map 1% reduce 0%
+18/12/25 16:17:09 INFO mapreduce.Job:  map 2% reduce 0%
+18/12/25 16:18:27 INFO mapreduce.Job:  map 3% reduce 0%
+18/12/25 16:19:45 INFO mapreduce.Job:  map 4% reduce 0%
+18/12/25 16:21:02 INFO mapreduce.Job:  map 5% reduce 0%
+18/12/25 16:22:20 INFO mapreduce.Job:  map 6% reduce 0%
+18/12/25 16:23:52 INFO mapreduce.Job:  map 7% reduce 0%
+18/12/25 16:25:07 INFO mapreduce.Job:  map 8% reduce 0%
+18/12/25 16:26:19 INFO mapreduce.Job:  map 9% reduce 0%
+18/12/25 16:27:47 INFO mapreduce.Job:  map 10% reduce 0%
+18/12/25 16:29:06 INFO mapreduce.Job:  map 11% reduce 0%
+18/12/25 16:30:25 INFO mapreduce.Job:  map 12% reduce 0%
+18/12/25 16:31:46 INFO mapreduce.Job:  map 13% reduce 0%
+18/12/25 16:33:05 INFO mapreduce.Job:  map 14% reduce 0%
+18/12/25 16:34:25 INFO mapreduce.Job:  map 15% reduce 0%
+18/12/25 16:35:39 INFO mapreduce.Job:  map 16% reduce 0%
+18/12/25 16:37:05 INFO mapreduce.Job:  map 17% reduce 0%
+18/12/25 16:38:15 INFO mapreduce.Job:  map 18% reduce 0%
+18/12/25 16:39:44 INFO mapreduce.Job:  map 19% reduce 0%
+18/12/25 16:40:53 INFO mapreduce.Job:  map 20% reduce 0%
+18/12/25 16:42:28 INFO mapreduce.Job:  map 21% reduce 0%
+18/12/25 16:43:35 INFO mapreduce.Job:  map 22% reduce 0%
+18/12/25 16:45:13 INFO mapreduce.Job:  map 23% reduce 0%
+18/12/25 16:46:18 INFO mapreduce.Job:  map 24% reduce 0%
+18/12/25 16:47:49 INFO mapreduce.Job:  map 25% reduce 0%
+18/12/25 16:49:03 INFO mapreduce.Job:  map 26% reduce 0%
+18/12/25 16:50:30 INFO mapreduce.Job:  map 27% reduce 0%
+18/12/25 16:51:40 INFO mapreduce.Job:  map 28% reduce 0%
+18/12/25 16:53:06 INFO mapreduce.Job:  map 29% reduce 0%
+18/12/25 16:54:21 INFO mapreduce.Job:  map 30% reduce 0%
+18/12/25 16:55:43 INFO mapreduce.Job:  map 31% reduce 0%
+18/12/25 16:56:55 INFO mapreduce.Job:  map 32% reduce 0%
+18/12/25 16:58:19 INFO mapreduce.Job:  map 33% reduce 0%
+18/12/25 16:59:36 INFO mapreduce.Job:  map 34% reduce 0%
+18/12/25 17:00:53 INFO mapreduce.Job:  map 35% reduce 0%
+18/12/25 17:02:10 INFO mapreduce.Job:  map 36% reduce 0%
+18/12/25 17:03:28 INFO mapreduce.Job:  map 37% reduce 0%
+18/12/25 17:04:51 INFO mapreduce.Job:  map 38% reduce 0%
+18/12/25 17:06:09 INFO mapreduce.Job:  map 39% reduce 0%
+18/12/25 17:07:32 INFO mapreduce.Job:  map 40% reduce 0%
+18/12/25 17:08:59 INFO mapreduce.Job:  map 41% reduce 0%
+18/12/25 17:10:07 INFO mapreduce.Job:  map 42% reduce 0%
+18/12/25 17:11:39 INFO mapreduce.Job:  map 43% reduce 0%
+18/12/25 17:12:57 INFO mapreduce.Job:  map 44% reduce 0%

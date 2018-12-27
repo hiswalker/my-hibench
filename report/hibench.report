@@ -1,4 +1,12 @@
 Type         Date       Time     Input_data_size      Duration(s)          Throughput(bytes/s)  Throughput/node     
-HadoopWordcount 2018-12-24 18:07:00 36705                37.204               986                  328                 
-HadoopWordcount 2018-12-24 20:35:46 3284915032           164.111              20016422             6672140             
-HadoopWordcount 2018-12-24 20:48:20 3284915032           162.731              20186166             6728722             
+HadoopPrepareWordcount 2018-12-27 10:38:11 37045                20.097               1843                 614                 
+HadoopWordcount 2018-12-27 10:54:37 37045                37.229               995                  331                 
+HadoopPrepareWordcount 2018-12-27 10:57:22 328498494            22.242               14769287             4923095             
+HadoopWordcount 2018-12-27 11:06:37 328498494            58.245               5639943              1879981             
+HadoopPrepareWordcount 2018-12-27 11:09:16 3284937410           48.499               67732064             22577354            
+HadoopWordcount 2018-12-27 11:15:54 3284937410           177.766              18478997             6159665             
+HadoopPrepareWordcount 2018-12-27 11:25:11 32849124017          286.305              114734720            38244906            
+HadoopPrepareWordcount 2018-12-27 11:32:56 32849109972          282.810              116152575            38717525            
+HadoopWordcount 2018-12-27 11:47:17 32849109972          811.455              40481739             13493913            
+HadoopPrepareWordcount 2018-12-27 12:39:40 328491529716         2686.902             122256609            40752203            
+HadoopWordcount 2018-12-27 14:52:46 328491529716         7923.550             41457620             13819206            

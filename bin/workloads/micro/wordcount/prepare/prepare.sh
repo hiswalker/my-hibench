@@ -24,8 +24,8 @@ enter_bench HadoopPrepareWordcount ${workload_config} ${current_dir}
 show_bannar start
 
 rmr_hdfs $INPUT_HDFS || true
-START_TIME=`timestamp`
 
+START_TIME=`timestamp`
 run_hadoop_job ${HADOOP_EXAMPLES_JAR} randomtextwriter \
     -D mapreduce.randomtextwriter.totalbytes=${DATASIZE} \
     -D mapreduce.randomtextwriter.bytespermap=$(( ${DATASIZE} / ${NUM_MAPS} )) \
@@ -34,6 +34,8 @@ run_hadoop_job ${HADOOP_EXAMPLES_JAR} randomtextwriter \
     ${INPUT_HDFS}
 END_TIME=`timestamp`
 
+SIZE=`dir_size $INPUT_HDFS`
+gen_report ${START_TIME} ${END_TIME} ${SIZE}
 show_bannar finish
 leave_bench
 
